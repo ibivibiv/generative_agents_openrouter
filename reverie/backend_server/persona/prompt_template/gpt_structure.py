@@ -12,7 +12,7 @@ from openrouter import OpenRouter
 from utils import *
 
 # Initialize OpenRouter client
-client = OpenRouter(api_key='your_openrouter_api_key')  # Replace with your API key
+client = OpenRouter(api_key=openai_api_key)  # Replace with your API key
 
 def temp_sleep(seconds=0.1):
     time.sleep(seconds)
